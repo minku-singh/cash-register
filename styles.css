@@ -66,13 +66,17 @@ table{
 }
 
 @media screen  and (max-width: 768px){
+    table{
+        max-width: 4rem;
+    }
     th{
         min-width: none;
         padding: 0;
-        width: 20px;
+        width: auto;
     }
     td{
         min-width: none;
         padding: 0;
+        width: auto;
     }
 }

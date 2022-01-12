@@ -1,0 +1,64 @@
+
+body{
+    font-family: monospace;
+    background-color: #ffddc5;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+table, th, td{
+    border: 2px solid #f97316;;
+    border-collapse: collapse;
+}
+th{
+    min-width: 5rem;
+    padding: 0.5rem;
+}
+td{
+    min-width: 3rem;
+    padding: 0.5rem;
+}
+
+input{
+    border: 2px solid #f97316;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+h1{
+    color: #f97316;
+}
+
+button{
+    border: none;
+    padding: 0.5rem;
+    background-color: #f97316;
+    color: white;
+    border-radius: 5px;
+    width: 16.2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fd974e;
+}
+
+.error{
+    background-color: red;
+    padding: 0.2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+table{
+    margin-top: 0.5rem;
+}

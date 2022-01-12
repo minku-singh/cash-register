@@ -67,7 +67,7 @@ table{
 
 @media screen  and (max-width: "768px"){
     table{
-        max-width: 400px;
+        max-width: 40px;
     }
     th{
         min-width: none;

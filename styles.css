@@ -24,6 +24,10 @@ td{
     min-width: 3rem;
     padding: 0.5rem;
 }
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+}
 
 input{
     border: 2px solid #f97316;
@@ -67,7 +71,7 @@ table{
 
 @media screen  and (max-width: 768px){
     table{
-        max-width: 600px;
+        width: 50%;
     }
     th{
         min-width: none;

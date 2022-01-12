@@ -76,11 +76,11 @@ table{
     th{
         min-width: none;
         padding: 0;
-        width: auto;
+        width: 0%;
     }
     td{
         min-width: none;
         padding: 0;
-        width: auto;
+        width: 0%;
     }
 }
